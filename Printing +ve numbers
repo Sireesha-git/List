@@ -1,0 +1,7 @@
+#printing positive numbers in list
+li=[1,5,6,0,-1,-2]
+l2=[]
+for numbers in li:
+    if numbers>0:
+        l2.append(numbers)
+print(l2)
